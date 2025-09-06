@@ -402,3 +402,120 @@ body {
   box-shadow: 0 0 10px 0 green;
   border: 1px solid green;
 }
+
+
+/* responsive screen  */
+
+@media screen and (max-width: 1440px){
+  
+.thumbnail{
+  width: 500px;
+  display: block;
+  overflow: hidden;
+}
+
+.editing{
+    width: 500px;
+  display: block;
+  overflow: hidden;
+}
+
+.portofolio{
+margin-top: 300px;
+}
+
+.cards{
+  display: flex;
+  justify-content: center;
+}
+
+.choose{
+  margin-top: 500px;
+}
+
+}
+
+@media screen and (max-width: 950px) {
+
+  
+.portofolio{
+  margin-top: 1200px;
+}
+
+.cards{
+  margin-top: 200px;
+}
+
+.choose{
+  margin-top: 1200px;
+}
+
+.about-text p{
+  width: 300px;
+}
+
+}
+
+@media screen and (max-width: 480px) {
+  
+  .head h1{
+    width: 300px;
+    font-size: 20px;
+  }
+
+  .head p{
+    margin-top: 10px;
+    width: 300px;
+    font-size: 10px;
+  }
+
+  .button{
+    margin-left: 30px;
+  }
+
+  .container p{
+    margin-left: 120px;
+  }
+
+  .btn-port{
+    margin-left: 60px;
+  }
+
+  .flex{
+    width: 100px;
+  }
+
+  .flex h4{
+    font-size: 15px;
+  }
+
+  .flex span{
+    font-size: 7px;
+    width: 80px;
+    margin-left: -5px;
+  }
+
+  .about-img img{
+   width: 200px;
+
+  }
+
+  .about-text p{
+width: 200px;
+font-size: 10px;
+  }
+
+  .footer span{
+    font-size: 14px;
+    margin-left: -40px;
+    
+  }
+
+
+
+  .footer-icon i.bi{
+    font-size: 12px;
+
+  }
+
+}
